@@ -2,9 +2,12 @@ group 'easytwit-overlay'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'maven'
 apply plugin: 'war'
 
-sourceCompatibility = 1.5
+group = "org.pat.easytwit"
+
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
